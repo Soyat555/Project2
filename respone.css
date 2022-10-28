@@ -1,0 +1,433 @@
+@media (min-width: 320px) and (max-width: 767px){
+    header .main-box .right{
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 0%;
+      height: 100%;
+      background-color: white;
+      z-index: 200;
+      overflow-x: hidden;
+      transition: 0.3s;
+    }
+    header .main-box .right .close-menu,
+    header .main-box .open-menu{
+       display: block !important;
+    }
+    header .main-box .open-menu{
+      font-size: 30px;
+      color: white;
+    }
+    header .main-box .right .close-menu{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+   }
+   header .main-box .right .close-menu i{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: azure;
+      width: 30px;
+      height: 30px;
+      border-radius: 5px;
+    }
+    header .main-box .right ul{
+      padding-top: 55px;
+    }
+    header .main-box .right ul li{
+      width: 100%;
+      padding: 10px 0px;
+    }
+    header .main-box .right ul li a{
+      color: black;
+    }
+    .app-banking{
+        width: 100%;
+        display: inline-block;
+    }
+    .app-banking .left{
+        width: 100%;
+        padding: 10px;
+    }
+    .app-banking .left p{
+       font-size: 15px;
+       
+    }
+    .app-banking .left h1{
+        font-size: 25px;
+     }
+     .app-banking .left .box{
+        width: 100%;
+        
+     }
+     .app-banking .left .box p{
+        width: 50%;
+        margin: 0px;
+        margin-left: 5px;
+        padding: 10px;
+        text-align: center;
+        
+     }
+     .app-banking .right{
+        width: 100%;
+        /* padding: 10px; */
+     }
+     .app-banking .right .box{
+        width: 80%;
+        margin: auto !important;
+        padding: 0px;
+     }
+     .app-banking .right .box img{
+        width: 100%;
+     }
+     .main-blog .lorem{
+        width: 100%;
+        padding: 10px;
+     }
+     .main-blog .lorem p{
+        font-size: 16px;
+     }
+     .blog{
+        width: 100%;
+        display: inline-block;
+     }
+     .blog .box {
+        width: 90%;
+        background-color: rgb(40, 37, 90);
+        text-align: center;
+        padding: 20px; 
+        margin: 10px auto;
+        float: none;
+        border-radius: 20px;
+     }
+     .blog .box .s-b{
+        width: 100%;
+    }
+    .blog .box .s-b i{
+        font-size: 50px;
+        color: #fff;
+     }
+    .blog .box  .b-title{
+        font-size: 20px;
+        width: 100%;
+        color: #fff;
+     }
+    .blog .box  .title{
+        font-size: 15px;
+        width: 100%;
+        color: #fff;
+     }
+     .box-phone .main-box{
+        width: 100%;
+     }
+     .box-phone .main-box .right img{
+        /* width: 100%; */
+        display: inline-block;
+        
+     }
+     .box-phone .main-box{
+      display: inline-block;
+      width: 100%;
+     }
+     .box-phone .main-box .left{
+      width: 100%;
+      font-size: 15px;
+     }
+     .box-phone .main-box .right{
+      width: 100%;
+     }
+     .box-phone .main-box .right .images{
+      width: 70%;
+      margin: auto;
+     }
+     .box-phone .main-box .right .images img{
+      width: 100%;
+     }
+     .box-phone .main-box .left{
+      width: 100%;
+      padding: 10px;
+     }
+     .mainblog-2{
+      width: 100%;
+      display: inline-block;  
+      padding: 10px;
+     }  
+     .mainblog-2 .big-title center{
+         width: 100%;
+     }
+     .mainblog-2 .big-title{
+       width: 100%;
+     }
+     .banner{
+      width: 100%;
+      padding: 10px;
+     }
+     .banner .main-banner{
+      width: 100%;
+      display: inline-block;
+     }
+     .banner .main-banner .box1{
+      width: 100%;
+      background: none;
+     }
+     .banner .main-banner .box1 .simple-powerful{
+      width: 100%;
+     }
+     .banner .main-banner .box1 .simple-powerful h4{
+      font-size: 15px;
+     }
+     .banner-2{
+      width: 100%;
+      margin: 0;
+   }
+   .banner-2 .box-phone{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+   .banner-2 .box-phone .title{
+      width: 50%;
+   }
+     
+   .banner-2 .box-phone .left img{
+      width: 100%;
+   }
+   .banner-2 .box-phone .left{
+      width: 100%;
+      padding: 20px;
+  }
+   .banner-2 .box-phone .right{
+      width: 100%;
+   }
+   .banner-2 .box-phone .right .big-title{
+      width: 100%;
+   }
+   .big-main{
+      width: 100%;
+   }
+   .big-main .main{
+      width: 100%;
+   }
+   .big-main .b-p{
+      width: 100%;
+      font-size: 17px;
+   }
+   .big-phone{
+      width: 100%;
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+   }
+   .big-phone .box img{
+      display: inline-block;
+      /* width: 100%;
+      padding:10px; */
+      
+   }
+   .main-big-width{
+      width: 100%;
+      margin: 0;
+   }
+   .main-big-width .some-FQT{
+      width: 100%;
+      padding: 10px;
+   }
+   .main-big-width .lorem p{
+      width: 100%;
+      /* font-size: 15px; */
+   }
+   .last-phone{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+
+   }
+   .last-phone .right{
+      width: 100%;
+      margin: 0;
+      /* background-color: orange; */
+   }
+   .last-phone .right .box{
+      margin: 0;
+      padding: 0;
+      width: 100%;
+   }
+   .last-phone .right .box h3{
+      display: inline-block;
+      padding-left: 10px;
+   }
+   footer{
+      width: 100%;
+   }
+   footer .box{
+      width: 100%;
+   }
+   footer .box .copyright{
+      width: 100%;
+   
+   }
+   footer .box .copyright h3{
+    font-size: 16px;
+   }
+}
+
+
+@media (min-width: 768px) and (max-width: 1025px){
+   header .main-box .right .close-menu,
+   header .main-box .open-menu{
+      display: none !important;
+   }
+   header .main-box .left{
+      width: 150px;
+   }
+   header .main-box .left img{
+      width: 100%;
+   }
+   header .main-box{
+      width: 100%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+  }
+   header .right ul li{
+      display: inline-block;
+   }
+  header .right ul li a{
+      padding: 5px;
+      color: #fff;
+      font-size: 12px;
+  }
+   .app-banking .left{
+      width: 60%;
+      padding: 15px;
+   }
+   .app-banking .left h1{
+      font-size: 35px;
+      color: #fff;
+      margin-top: 20px;
+   }
+   .app-banking .left p{
+      color: #fff;
+      margin-top: 20px;
+   }
+   .app-banking .left .box{
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+   }
+   .app-banking .left .box span{
+      color:#fff;
+      margin: 10px;
+      background-color: green;
+      padding: 15px 20px;
+      font-size: 20px;
+   }
+   .main-blog{
+      width: 100%;
+      padding: 10px;
+   }
+   .blog{
+      width: 100%;
+   }
+   .blog .box{
+      width: 100%;
+      flex-direction: column;
+   }
+   .mainblog-2{
+      width: 100%;
+   }
+   .mainblog-2 .lorem{
+      width: 100%;
+      padding: 10px;
+   }
+   .banner{
+      width: 100%;
+   }
+   .banner .main-banner{
+      width: 100%;
+      /* padding: 10px; */
+   }
+   .banner .main-banner .box1{
+      width: 100%;
+      padding: 10px;
+   }
+   .banner-2{
+      width: 100%;
+   }
+   .banner-2 .box-phone{
+      width: 100%;
+   }
+   .banner-2 .box-phone .right{
+      width: 100%;
+   }
+   .banner-2 .box-phone .right .big-title{
+      width: 100%;
+      padding: 15px;
+   }
+   .big-main{
+      width: 100%;
+   }
+   .big-main .main{
+      width: 100%;
+   }
+   .big-main .main .app-screen{
+      width: 100%;
+      text-align: center;
+   }
+   .big-main .main .b-p{
+      width: 100%;
+   }
+   .big-phone{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      /* display: inline-block; */
+      /* align-items: center; */
+   }
+   .big-phone .box{
+      width: 50%;
+      /* overflow: hidden; */
+     
+   }
+   .main-big-width{
+      width: 100%;
+   }
+   .main-big-width .some-FQT .big-title{
+      width: 100%;
+      text-align: center;
+   }
+   .main-big-width .some-FQT{
+      width: 100%;
+   }
+   .main-big-width .some-FQT .lorem{
+      width: 100%;
+      padding: 10px;
+   }
+   .main-big-width .some-FQT .last-phone{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+   }
+   .last-phone .right{
+      width: 100%; 
+       /* display: inline-block; */
+   }
+   .last-phone .right .box{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+         
+   }
+   .main{
+      display: flex;
+      flex-direction: column;
+   }
+   .last-phone .right .box h3{
+
+   }
+}
